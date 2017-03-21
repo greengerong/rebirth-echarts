@@ -430,7 +430,7 @@ import * as echarts from &#x27;echarts&#x27;;
 })
 export class EChartsComponent implements AfterViewInit, OnChanges, OnDestroy {
 
-  @Input() options: echarts.Option;
+  @Input() options: any;
   @Input() width &#x3D; &#x27;100%&#x27;;
   @Input() height &#x3D; &#x27;400px&#x27;;
   @Output() chartCreated &#x3D; new EventEmitter&lt;EChartsComponent&gt;();
@@ -441,7 +441,7 @@ export class EChartsComponent implements AfterViewInit, OnChanges, OnDestroy {
   }
 
   ngAfterViewInit(): void {
-    this.chart &#x3D; echarts.init(this.elementRef.nativeElement);
+    this.chart &#x3D; (&lt;any&gt;echarts).init(this.elementRef.nativeElement);
     this.updateChartData(this.options);
     this.chartCreated.emit(this);
   }
@@ -459,7 +459,7 @@ export class EChartsComponent implements AfterViewInit, OnChanges, OnDestroy {
     }
   }
 
-  updateChartData(options: echarts.Option) {
+  updateChartData(options: any) {
     if (options) {
       this.chart.setOption(options);
     }

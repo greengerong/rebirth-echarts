@@ -146,8 +146,7 @@
           "document",
           "echart",
           "echart.j",
-          "echarts.init(this.elementref.nativeel",
-          "echarts.opt",
+          "echarts).init(this.elementref.nativeel",
           "echartscompon",
           "element",
           "elementref",
@@ -253,7 +252,7 @@
               "docs": {
                 "components/EChartsComponent.html": {
                   "ref": "components/EChartsComponent.html",
-                  "tf": 0.013422818791946308
+                  "tf": 0.013605442176870748
                 }
               }
             },
@@ -284,7 +283,7 @@
                   "docs": {
                     "components/EChartsComponent.html": {
                       "ref": "components/EChartsComponent.html",
-                      "tf": 0.013422818791946308
+                      "tf": 0.013605442176870748
                     }
                   }
                 }
@@ -352,7 +351,7 @@
                                 },
                                 "components/EChartsComponent.html": {
                                   "ref": "components/EChartsComponent.html",
-                                  "tf": 0.006711409395973154
+                                  "tf": 0.006802721088435374
                                 }
                               }
                             }
@@ -391,7 +390,7 @@
                                   "docs": {
                                     "components/EChartsComponent.html": {
                                       "ref": "components/EChartsComponent.html",
-                                      "tf": 0.013422818791946308
+                                      "tf": 0.013605442176870748
                                     }
                                   }
                                 }
@@ -476,7 +475,7 @@
                   "docs": {
                     "components/EChartsComponent.html": {
                       "ref": "components/EChartsComponent.html",
-                      "tf": 0.006711409395973154
+                      "tf": 0.006802721088435374
                     }
                   }
                 }
@@ -538,7 +537,7 @@
                       "docs": {
                         "components/EChartsComponent.html": {
                           "ref": "components/EChartsComponent.html",
-                          "tf": 0.013422818791946308
+                          "tf": 0.013605442176870748
                         }
                       }
                     }
@@ -597,7 +596,7 @@
                         "docs": {
                           "components/EChartsComponent.html": {
                             "ref": "components/EChartsComponent.html",
-                            "tf": 0.006711409395973154
+                            "tf": 0.006802721088435374
                           },
                           "coverage.html": {
                             "ref": "coverage.html",
@@ -634,7 +633,7 @@
                       },
                       "components/EChartsComponent.html": {
                         "ref": "components/EChartsComponent.html",
-                        "tf": 0.053691275167785234
+                        "tf": 0.05442176870748299
                       }
                     },
                     "s": {
@@ -720,68 +719,105 @@
                               }
                             }
                           }
-                        },
-                        "i": {
+                        }
+                      },
+                      "c": {
+                        "docs": {},
+                        "o": {
                           "docs": {},
-                          "n": {
+                          "m": {
                             "docs": {},
-                            "i": {
+                            "p": {
                               "docs": {},
-                              "t": {
+                              "o": {
                                 "docs": {},
-                                "(": {
+                                "n": {
+                                  "docs": {
+                                    "modules/EChartsModule.html": {
+                                      "ref": "modules/EChartsModule.html",
+                                      "tf": 0.12195121951219512
+                                    },
+                                    "components/EChartsComponent.html": {
+                                      "ref": "components/EChartsComponent.html",
+                                      "tf": 5.01360544217687
+                                    },
+                                    "coverage.html": {
+                                      "ref": "coverage.html",
+                                      "tf": 0.058823529411764705
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      ")": {
+                        "docs": {},
+                        ".": {
+                          "docs": {},
+                          "i": {
+                            "docs": {},
+                            "n": {
+                              "docs": {},
+                              "i": {
+                                "docs": {},
+                                "t": {
                                   "docs": {},
-                                  "t": {
+                                  "(": {
                                     "docs": {},
-                                    "h": {
+                                    "t": {
                                       "docs": {},
-                                      "i": {
+                                      "h": {
                                         "docs": {},
-                                        "s": {
+                                        "i": {
                                           "docs": {},
-                                          ".": {
+                                          "s": {
                                             "docs": {},
-                                            "e": {
+                                            ".": {
                                               "docs": {},
-                                              "l": {
+                                              "e": {
                                                 "docs": {},
-                                                "e": {
+                                                "l": {
                                                   "docs": {},
-                                                  "m": {
+                                                  "e": {
                                                     "docs": {},
-                                                    "e": {
+                                                    "m": {
                                                       "docs": {},
-                                                      "n": {
+                                                      "e": {
                                                         "docs": {},
-                                                        "t": {
+                                                        "n": {
                                                           "docs": {},
-                                                          "r": {
+                                                          "t": {
                                                             "docs": {},
-                                                            "e": {
+                                                            "r": {
                                                               "docs": {},
-                                                              "f": {
+                                                              "e": {
                                                                 "docs": {},
-                                                                ".": {
+                                                                "f": {
                                                                   "docs": {},
-                                                                  "n": {
+                                                                  ".": {
                                                                     "docs": {},
-                                                                    "a": {
+                                                                    "n": {
                                                                       "docs": {},
-                                                                      "t": {
+                                                                      "a": {
                                                                         "docs": {},
-                                                                        "i": {
+                                                                        "t": {
                                                                           "docs": {},
-                                                                          "v": {
+                                                                          "i": {
                                                                             "docs": {},
-                                                                            "e": {
+                                                                            "v": {
                                                                               "docs": {},
                                                                               "e": {
                                                                                 "docs": {},
-                                                                                "l": {
-                                                                                  "docs": {
-                                                                                    "components/EChartsComponent.html": {
-                                                                                      "ref": "components/EChartsComponent.html",
-                                                                                      "tf": 0.006711409395973154
+                                                                                "e": {
+                                                                                  "docs": {},
+                                                                                  "l": {
+                                                                                    "docs": {
+                                                                                      "components/EChartsComponent.html": {
+                                                                                        "ref": "components/EChartsComponent.html",
+                                                                                        "tf": 0.006802721088435374
+                                                                                      }
                                                                                     }
                                                                                   }
                                                                                 }
@@ -812,51 +848,6 @@
                               }
                             }
                           }
-                        },
-                        "o": {
-                          "docs": {},
-                          "p": {
-                            "docs": {},
-                            "t": {
-                              "docs": {
-                                "components/EChartsComponent.html": {
-                                  "ref": "components/EChartsComponent.html",
-                                  "tf": 0.013422818791946308
-                                }
-                              }
-                            }
-                          }
-                        }
-                      },
-                      "c": {
-                        "docs": {},
-                        "o": {
-                          "docs": {},
-                          "m": {
-                            "docs": {},
-                            "p": {
-                              "docs": {},
-                              "o": {
-                                "docs": {},
-                                "n": {
-                                  "docs": {
-                                    "modules/EChartsModule.html": {
-                                      "ref": "modules/EChartsModule.html",
-                                      "tf": 0.12195121951219512
-                                    },
-                                    "components/EChartsComponent.html": {
-                                      "ref": "components/EChartsComponent.html",
-                                      "tf": 5.0134228187919465
-                                    },
-                                    "coverage.html": {
-                                      "ref": "coverage.html",
-                                      "tf": 0.058823529411764705
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
                         }
                       }
                     },
@@ -866,7 +857,7 @@
                         "docs": {
                           "components/EChartsComponent.html": {
                             "ref": "components/EChartsComponent.html",
-                            "tf": 0.006711409395973154
+                            "tf": 0.006802721088435374
                           }
                         }
                       }
@@ -896,14 +887,14 @@
                       },
                       "components/EChartsComponent.html": {
                         "ref": "components/EChartsComponent.html",
-                        "tf": 0.006711409395973154
+                        "tf": 0.006802721088435374
                       }
                     },
                     "a": {
                       "docs": {
                         "components/EChartsComponent.html": {
                           "ref": "components/EChartsComponent.html",
-                          "tf": 0.013422818791946308
+                          "tf": 0.013605442176870748
                         }
                       }
                     }
@@ -926,7 +917,7 @@
                       "docs": {
                         "components/EChartsComponent.html": {
                           "ref": "components/EChartsComponent.html",
-                          "tf": 0.006711409395973154
+                          "tf": 0.006802721088435374
                         }
                       },
                       "r": {
@@ -937,7 +928,7 @@
                             "docs": {
                               "components/EChartsComponent.html": {
                                 "ref": "components/EChartsComponent.html",
-                                "tf": 0.026845637583892617
+                                "tf": 0.027210884353741496
                               }
                             }
                           }
@@ -959,7 +950,7 @@
                   "docs": {
                     "components/EChartsComponent.html": {
                       "ref": "components/EChartsComponent.html",
-                      "tf": 0.013422818791946308
+                      "tf": 0.013605442176870748
                     }
                   },
                   "e": {
@@ -974,7 +965,7 @@
                             "docs": {
                               "components/EChartsComponent.html": {
                                 "ref": "components/EChartsComponent.html",
-                                "tf": 0.020134228187919462
+                                "tf": 0.02040816326530612
                               }
                             }
                           }
@@ -1177,7 +1168,7 @@
                                                                               "docs": {
                                                                                 "components/EChartsComponent.html": {
                                                                                   "ref": "components/EChartsComponent.html",
-                                                                                  "tf": 0.006711409395973154
+                                                                                  "tf": 0.006802721088435374
                                                                                 }
                                                                               }
                                                                             }
@@ -1226,7 +1217,7 @@
                     "docs": {
                       "components/EChartsComponent.html": {
                         "ref": "components/EChartsComponent.html",
-                        "tf": 0.026845637583892617
+                        "tf": 0.027210884353741496
                       }
                     }
                   }
@@ -1242,7 +1233,7 @@
                 "docs": {
                   "components/EChartsComponent.html": {
                     "ref": "components/EChartsComponent.html",
-                    "tf": 0.013422818791946308
+                    "tf": 0.013605442176870748
                   }
                 }
               }
@@ -1281,7 +1272,7 @@
                   },
                   "components/EChartsComponent.html": {
                     "ref": "components/EChartsComponent.html",
-                    "tf": 0.006711409395973154
+                    "tf": 0.006802721088435374
                   }
                 }
               }
@@ -1294,7 +1285,7 @@
                   "docs": {
                     "components/EChartsComponent.html": {
                       "ref": "components/EChartsComponent.html",
-                      "tf": 0.03355704697986577
+                      "tf": 0.034013605442176874
                     }
                   }
                 }
@@ -1321,7 +1312,7 @@
                       },
                       "components/EChartsComponent.html": {
                         "ref": "components/EChartsComponent.html",
-                        "tf": 0.013422818791946308
+                        "tf": 0.013605442176870748
                       }
                     }
                   }
@@ -1341,7 +1332,7 @@
                           "docs": {
                             "components/EChartsComponent.html": {
                               "ref": "components/EChartsComponent.html",
-                              "tf": 0.006711409395973154
+                              "tf": 0.006802721088435374
                             }
                           }
                         }
@@ -1428,7 +1419,7 @@
                     },
                     "components/EChartsComponent.html": {
                       "ref": "components/EChartsComponent.html",
-                      "tf": 0.013422818791946308
+                      "tf": 0.013605442176870748
                     },
                     "coverage.html": {
                       "ref": "coverage.html",
@@ -1522,7 +1513,7 @@
                         "docs": {
                           "components/EChartsComponent.html": {
                             "ref": "components/EChartsComponent.html",
-                            "tf": 0.006711409395973154
+                            "tf": 0.006802721088435374
                           }
                         }
                       }
@@ -1538,7 +1529,7 @@
                     "docs": {
                       "components/EChartsComponent.html": {
                         "ref": "components/EChartsComponent.html",
-                        "tf": 0.006711409395973154
+                        "tf": 0.006802721088435374
                       }
                     }
                   }
@@ -1614,7 +1605,7 @@
                                       "docs": {
                                         "components/EChartsComponent.html": {
                                           "ref": "components/EChartsComponent.html",
-                                          "tf": 0.006711409395973154
+                                          "tf": 0.006802721088435374
                                         }
                                       }
                                     }
@@ -1662,7 +1653,7 @@
                                           "docs": {
                                             "components/EChartsComponent.html": {
                                               "ref": "components/EChartsComponent.html",
-                                              "tf": 0.006711409395973154
+                                              "tf": 0.006802721088435374
                                             }
                                           }
                                         }
@@ -1694,7 +1685,7 @@
                               "docs": {
                                 "components/EChartsComponent.html": {
                                   "ref": "components/EChartsComponent.html",
-                                  "tf": 0.006711409395973154
+                                  "tf": 0.006802721088435374
                                 }
                               }
                             }
@@ -1713,7 +1704,7 @@
               "docs": {
                 "components/EChartsComponent.html": {
                   "ref": "components/EChartsComponent.html",
-                  "tf": 0.006711409395973154
+                  "tf": 0.006802721088435374
                 }
               }
             }
@@ -1775,7 +1766,7 @@
                         "docs": {
                           "components/EChartsComponent.html": {
                             "ref": "components/EChartsComponent.html",
-                            "tf": 0.006711409395973154
+                            "tf": 0.006802721088435374
                           }
                         }
                       }
@@ -1809,7 +1800,7 @@
             "docs": {
               "components/EChartsComponent.html": {
                 "ref": "components/EChartsComponent.html",
-                "tf": 0.026845637583892617
+                "tf": 0.027210884353741496
               }
             },
             "a": {
@@ -1824,7 +1815,7 @@
                     },
                     "components/EChartsComponent.html": {
                       "ref": "components/EChartsComponent.html",
-                      "tf": 0.006711409395973154
+                      "tf": 0.006802721088435374
                     }
                   }
                 }
@@ -1982,7 +1973,7 @@
                       },
                       "components/EChartsComponent.html": {
                         "ref": "components/EChartsComponent.html",
-                        "tf": 0.013422818791946308
+                        "tf": 0.013605442176870748
                       },
                       "coverage.html": {
                         "ref": "coverage.html",
@@ -2022,7 +2013,7 @@
                     "docs": {
                       "components/EChartsComponent.html": {
                         "ref": "components/EChartsComponent.html",
-                        "tf": 0.006711409395973154
+                        "tf": 0.006802721088435374
                       }
                     }
                   }
@@ -2035,7 +2026,7 @@
                 "docs": {
                   "components/EChartsComponent.html": {
                     "ref": "components/EChartsComponent.html",
-                    "tf": 0.006711409395973154
+                    "tf": 0.006802721088435374
                   }
                 }
               }
@@ -2082,7 +2073,7 @@
                         "docs": {
                           "components/EChartsComponent.html": {
                             "ref": "components/EChartsComponent.html",
-                            "tf": 0.013422818791946308
+                            "tf": 0.013605442176870748
                           }
                         }
                       }
@@ -2095,7 +2086,7 @@
               "docs": {
                 "components/EChartsComponent.html": {
                   "ref": "components/EChartsComponent.html",
-                  "tf": 0.013422818791946308
+                  "tf": 0.013605442176870748
                 }
               }
             }
@@ -2147,7 +2138,7 @@
                   "docs": {
                     "components/EChartsComponent.html": {
                       "ref": "components/EChartsComponent.html",
-                      "tf": 0.006711409395973154
+                      "tf": 0.006802721088435374
                     }
                   },
                   ".": {
@@ -2168,7 +2159,7 @@
                                   "docs": {
                                     "components/EChartsComponent.html": {
                                       "ref": "components/EChartsComponent.html",
-                                      "tf": 0.006711409395973154
+                                      "tf": 0.006802721088435374
                                     }
                                   },
                                   "]": {
@@ -2195,7 +2186,7 @@
                                                         "docs": {
                                                           "components/EChartsComponent.html": {
                                                             "ref": "components/EChartsComponent.html",
-                                                            "tf": 0.006711409395973154
+                                                            "tf": 0.006802721088435374
                                                           }
                                                         }
                                                       }
@@ -2230,7 +2221,7 @@
                                 "docs": {
                                   "components/EChartsComponent.html": {
                                     "ref": "components/EChartsComponent.html",
-                                    "tf": 0.006711409395973154
+                                    "tf": 0.006802721088435374
                                   }
                                 }
                               }
@@ -2251,7 +2242,7 @@
                               "docs": {
                                 "components/EChartsComponent.html": {
                                   "ref": "components/EChartsComponent.html",
-                                  "tf": 0.006711409395973154
+                                  "tf": 0.006802721088435374
                                 }
                               },
                               "]": {
@@ -2326,7 +2317,7 @@
                                                                                                     "docs": {
                                                                                                       "components/EChartsComponent.html": {
                                                                                                         "ref": "components/EChartsComponent.html",
-                                                                                                        "tf": 0.006711409395973154
+                                                                                                        "tf": 0.006802721088435374
                                                                                                       }
                                                                                                     }
                                                                                                   }
@@ -2450,7 +2441,7 @@
                     },
                     "components/EChartsComponent.html": {
                       "ref": "components/EChartsComponent.html",
-                      "tf": 0.006711409395973154
+                      "tf": 0.006802721088435374
                     }
                   }
                 }
@@ -2572,7 +2563,7 @@
                                                                                               "docs": {
                                                                                                 "components/EChartsComponent.html": {
                                                                                                   "ref": "components/EChartsComponent.html",
-                                                                                                  "tf": 0.006711409395973154
+                                                                                                  "tf": 0.006802721088435374
                                                                                                 },
                                                                                                 "coverage.html": {
                                                                                                   "ref": "coverage.html",
@@ -2669,7 +2660,7 @@
                               "docs": {
                                 "components/EChartsComponent.html": {
                                   "ref": "components/EChartsComponent.html",
-                                  "tf": 0.013422818791946308
+                                  "tf": 0.013605442176870748
                                 }
                               }
                             }
@@ -2723,7 +2714,7 @@
                                       "docs": {
                                         "components/EChartsComponent.html": {
                                           "ref": "components/EChartsComponent.html",
-                                          "tf": 0.006711409395973154
+                                          "tf": 0.006802721088435374
                                         }
                                       },
                                       "(": {
@@ -2736,7 +2727,7 @@
                                               "docs": {
                                                 "components/EChartsComponent.html": {
                                                   "ref": "components/EChartsComponent.html",
-                                                  "tf": 0.013422818791946308
+                                                  "tf": 0.013605442176870748
                                                 }
                                               }
                                             }
@@ -2776,7 +2767,7 @@
                       },
                       "components/EChartsComponent.html": {
                         "ref": "components/EChartsComponent.html",
-                        "tf": 5.026845637583893
+                        "tf": 5.0272108843537415
                       },
                       "coverage.html": {
                         "ref": "coverage.html",
@@ -2830,7 +2821,7 @@
                         "docs": {
                           "components/EChartsComponent.html": {
                             "ref": "components/EChartsComponent.html",
-                            "tf": 0.006711409395973154
+                            "tf": 0.006802721088435374
                           }
                         }
                       }
@@ -2844,7 +2835,7 @@
                   "docs": {
                     "components/EChartsComponent.html": {
                       "ref": "components/EChartsComponent.html",
-                      "tf": 0.006711409395973154
+                      "tf": 0.006802721088435374
                     }
                   },
                   "r": {
@@ -2861,7 +2852,7 @@
                               "docs": {
                                 "components/EChartsComponent.html": {
                                   "ref": "components/EChartsComponent.html",
-                                  "tf": 0.006711409395973154
+                                  "tf": 0.006802721088435374
                                 }
                               },
                               "(": {
@@ -2888,7 +2879,7 @@
                                                     "docs": {
                                                       "components/EChartsComponent.html": {
                                                         "ref": "components/EChartsComponent.html",
-                                                        "tf": 0.006711409395973154
+                                                        "tf": 0.006802721088435374
                                                       }
                                                     }
                                                   }
@@ -2911,7 +2902,7 @@
                                         "docs": {
                                           "components/EChartsComponent.html": {
                                             "ref": "components/EChartsComponent.html",
-                                            "tf": 0.006711409395973154
+                                            "tf": 0.006802721088435374
                                           }
                                         }
                                       }
@@ -2967,7 +2958,7 @@
                     },
                     "components/EChartsComponent.html": {
                       "ref": "components/EChartsComponent.html",
-                      "tf": 0.006711409395973154
+                      "tf": 0.006802721088435374
                     }
                   }
                 }
@@ -3117,7 +3108,7 @@
                                                                                                                                                           "docs": {
                                                                                                                                                             "components/EChartsComponent.html": {
                                                                                                                                                               "ref": "components/EChartsComponent.html",
-                                                                                                                                                              "tf": 0.006711409395973154
+                                                                                                                                                              "tf": 0.006802721088435374
                                                                                                                                                             }
                                                                                                                                                           }
                                                                                                                                                         }
@@ -3216,7 +3207,7 @@
                                 "docs": {
                                   "components/EChartsComponent.html": {
                                     "ref": "components/EChartsComponent.html",
-                                    "tf": 0.013422818791946308
+                                    "tf": 0.013605442176870748
                                   }
                                 },
                                 "i": {
@@ -3243,7 +3234,7 @@
                                                       "docs": {
                                                         "components/EChartsComponent.html": {
                                                           "ref": "components/EChartsComponent.html",
-                                                          "tf": 0.006711409395973154
+                                                          "tf": 0.006802721088435374
                                                         }
                                                       }
                                                     },
@@ -3265,7 +3256,7 @@
                                                                     "docs": {
                                                                       "components/EChartsComponent.html": {
                                                                         "ref": "components/EChartsComponent.html",
-                                                                        "tf": 0.013422818791946308
+                                                                        "tf": 0.013605442176870748
                                                                       }
                                                                     }
                                                                   }
@@ -3306,7 +3297,7 @@
                                 "docs": {
                                   "components/EChartsComponent.html": {
                                     "ref": "components/EChartsComponent.html",
-                                    "tf": 0.006711409395973154
+                                    "tf": 0.006802721088435374
                                   }
                                 },
                                 "i": {
@@ -3347,7 +3338,7 @@
                                                                     "docs": {
                                                                       "components/EChartsComponent.html": {
                                                                         "ref": "components/EChartsComponent.html",
-                                                                        "tf": 0.006711409395973154
+                                                                        "tf": 0.006802721088435374
                                                                       }
                                                                     }
                                                                   }
@@ -3383,7 +3374,7 @@
                   "docs": {
                     "components/EChartsComponent.html": {
                       "ref": "components/EChartsComponent.html",
-                      "tf": 0.040268456375838924
+                      "tf": 0.04081632653061224
                     }
                   },
                   "c": {
@@ -3398,7 +3389,7 @@
                             "docs": {
                               "components/EChartsComponent.html": {
                                 "ref": "components/EChartsComponent.html",
-                                "tf": 0.013422818791946308
+                                "tf": 0.013605442176870748
                               }
                             }
                           }
@@ -3432,7 +3423,7 @@
                               "docs": {
                                 "components/EChartsComponent.html": {
                                   "ref": "components/EChartsComponent.html",
-                                  "tf": 0.006711409395973154
+                                  "tf": 0.006802721088435374
                                 }
                               }
                             }
@@ -3473,7 +3464,7 @@
                     "docs": {
                       "components/EChartsComponent.html": {
                         "ref": "components/EChartsComponent.html",
-                        "tf": 0.020134228187919462
+                        "tf": 0.02040816326530612
                       }
                     }
                   }
@@ -3519,7 +3510,7 @@
                     "docs": {
                       "components/EChartsComponent.html": {
                         "ref": "components/EChartsComponent.html",
-                        "tf": 0.006711409395973154
+                        "tf": 0.006802721088435374
                       }
                     }
                   }
@@ -3541,7 +3532,7 @@
                       "docs": {
                         "components/EChartsComponent.html": {
                           "ref": "components/EChartsComponent.html",
-                          "tf": 0.013422818791946308
+                          "tf": 0.013605442176870748
                         }
                       }
                     }
@@ -3565,7 +3556,7 @@
                           "docs": {
                             "components/EChartsComponent.html": {
                               "ref": "components/EChartsComponent.html",
-                              "tf": 0.013422818791946308
+                              "tf": 0.013605442176870748
                             }
                           }
                         }
@@ -3588,7 +3579,7 @@
                     "docs": {
                       "components/EChartsComponent.html": {
                         "ref": "components/EChartsComponent.html",
-                        "tf": 0.020134228187919462
+                        "tf": 0.02040816326530612
                       }
                     }
                   }
@@ -3640,7 +3631,7 @@
                   },
                   "components/EChartsComponent.html": {
                     "ref": "components/EChartsComponent.html",
-                    "tf": 0.006711409395973154
+                    "tf": 0.006802721088435374
                   },
                   "coverage.html": {
                     "ref": "coverage.html",
@@ -3665,7 +3656,7 @@
                     "docs": {
                       "components/EChartsComponent.html": {
                         "ref": "components/EChartsComponent.html",
-                        "tf": 0.006711409395973154
+                        "tf": 0.006802721088435374
                       }
                     }
                   }
@@ -3690,7 +3681,7 @@
                       "docs": {
                         "components/EChartsComponent.html": {
                           "ref": "components/EChartsComponent.html",
-                          "tf": 0.006711409395973154
+                          "tf": 0.006802721088435374
                         }
                       }
                     }
@@ -3719,7 +3710,7 @@
                             "docs": {
                               "components/EChartsComponent.html": {
                                 "ref": "components/EChartsComponent.html",
-                                "tf": 0.020134228187919462
+                                "tf": 0.02040816326530612
                               }
                             },
                             ".": {
@@ -3740,7 +3731,7 @@
                                             "docs": {
                                               "components/EChartsComponent.html": {
                                                 "ref": "components/EChartsComponent.html",
-                                                "tf": 0.006711409395973154
+                                                "tf": 0.006802721088435374
                                               }
                                             }
                                           }
@@ -3778,7 +3769,7 @@
                                                         "docs": {
                                                           "components/EChartsComponent.html": {
                                                             "ref": "components/EChartsComponent.html",
-                                                            "tf": 0.006711409395973154
+                                                            "tf": 0.006802721088435374
                                                           }
                                                         }
                                                       }
@@ -3829,7 +3820,7 @@
                                                             "docs": {
                                                               "components/EChartsComponent.html": {
                                                                 "ref": "components/EChartsComponent.html",
-                                                                "tf": 0.006711409395973154
+                                                                "tf": 0.006802721088435374
                                                               }
                                                             }
                                                           }
@@ -3909,7 +3900,7 @@
                                                                         "docs": {
                                                                           "components/EChartsComponent.html": {
                                                                             "ref": "components/EChartsComponent.html",
-                                                                            "tf": 0.006711409395973154
+                                                                            "tf": 0.006802721088435374
                                                                           }
                                                                         }
                                                                       }
@@ -3941,7 +3932,7 @@
                                                                   "docs": {
                                                                     "components/EChartsComponent.html": {
                                                                       "ref": "components/EChartsComponent.html",
-                                                                      "tf": 0.006711409395973154
+                                                                      "tf": 0.006802721088435374
                                                                     }
                                                                   }
                                                                 }
@@ -3980,7 +3971,7 @@
                 "docs": {
                   "components/EChartsComponent.html": {
                     "ref": "components/EChartsComponent.html",
-                    "tf": 0.013422818791946308
+                    "tf": 0.013605442176870748
                   },
                   "coverage.html": {
                     "ref": "coverage.html",
@@ -4001,7 +3992,7 @@
                 "docs": {
                   "components/EChartsComponent.html": {
                     "ref": "components/EChartsComponent.html",
-                    "tf": 0.013422818791946308
+                    "tf": 0.013605442176870748
                   }
                 }
               }
@@ -4015,7 +4006,7 @@
                 "docs": {
                   "components/EChartsComponent.html": {
                     "ref": "components/EChartsComponent.html",
-                    "tf": 0.020134228187919462
+                    "tf": 0.02040816326530612
                   }
                 }
               }
@@ -4034,7 +4025,7 @@
                   "docs": {
                     "components/EChartsComponent.html": {
                       "ref": "components/EChartsComponent.html",
-                      "tf": 0.026845637583892617
+                      "tf": 0.027210884353741496
                     }
                   }
                 }
@@ -4043,7 +4034,7 @@
           }
         }
       },
-      "length": 194
+      "length": 193
     },
     "corpusTokens": [
       "0",
@@ -4086,10 +4077,9 @@
       "document",
       "echart",
       "echart.j",
+      "echarts).init(this.elementref.nativeel",
       "echarts.compon",
-      "echarts.init(this.elementref.nativeel",
       "echarts.module.t",
-      "echarts.opt",
       "echartscompon",
       "echartsmodul",
       "element",
@@ -4215,7 +4205,7 @@
     "components/EChartsComponent.html": {
       "url": "components/EChartsComponent.html",
       "title": "component - EChartsComponent",
-      "body": "\n                   \n\n\n\n  Components\n  EChartsComponent\n\n\n\n    \n        \n            Infos\n        \n        \n            README\n        \n        \n            Source\n        \n    \n\n    \n        \n    File\n\n\n    src/app/exports/echarts/echarts.component.ts\n\n\n\n\n    Metadata\n    \n        \n\n            \n                changeDetection\n                ChangeDetectionStrategy.OnPush\n            \n\n\n\n            \n                exportAs\n                chart\n            \n\n            \n                host\n                {    \"[style.display]\":\"\\\"block\\\"\",    \"[style.width]\":\"width\",\"[style.height]\":\"height\"}\n            \n\n\n\n\n\n\n\n            \n                selector\n                re-echarts\n            \n\n\n\n\n\n\n        \n    \n\n\n    \n        Inputs\n            \n                \n                    \n                        \n                            height\n                        \n                        \n                            \n                              Default value: 400px\n                            \n                        \n                    \n                \n            \n            \n                \n                    \n                        \n                            options\n                        \n                        \n                              \n                                Type:    any\n\n                              \n                        \n                    \n                \n            \n            \n                \n                    \n                        \n                            width\n                        \n                        \n                            \n                              Default value: 100%\n                            \n                        \n                    \n                \n            \n    \n\n    \n        Outputs\n            \n                \n                    \n                        \n                            chartCreated\n                        \n                        \n                            $event type:    EventEmitter\n\n                        \n                    \n                \n            \n    \n\n    \n        Constructor\n            \n                \n                    \n                        \n                            constructor(elementRef: ElementRef)\n                        \n                    \n    \n                \n            \n    \n\n    \n        Methods\n            \n                \n                    \n                        \n                             updateChartData\n                        \n                    \n    \n                    \n                        \n    updateChartData(options: any)\n                        \n                    \n    \n                    \n                        \n                                \n                                    Returns:     void\n    \n                                \n                        \n                    \n                \n            \n    \n\n    \n        Properties\n            \n                \n                    \n                        \n                             chart\n                        \n                    \n                    \n                        \n                            chart:     any\n    \n                        \n                    \n                \n            \n    \n\n        \n            EChart\n\nEChart.js document: http://echarts.baidu.com/index.html;\n\nYou can style re-echarts element to set chart width & height;\n\nYou can set global configuration on EChart object, then reuse in re-echarts component.\n\n\n\n        \n        \n            import {\n  Component,\n  ChangeDetectionStrategy,\n  OnDestroy,\n  ElementRef,\n  Input,\n  AfterViewInit,\n  OnChanges,\n  SimpleChanges,\n  Output,\n  EventEmitter\n} from '@angular/core';\n\nimport * as echarts from 'echarts';\n\n@Component({\n  selector: 're-echarts',\n  template: '',\n  host: {\n    '[style.display]': '\"block\"',\n    '[style.width]': 'width',\n    '[style.height]': 'height'\n  },\n  changeDetection: ChangeDetectionStrategy.OnPush,\n  exportAs: 'chart'\n})\nexport class EChartsComponent implements AfterViewInit, OnChanges, OnDestroy {\n\n  @Input() options: echarts.Option;\n  @Input() width = '100%';\n  @Input() height = '400px';\n  @Output() chartCreated = new EventEmitter();\n  chart: any;\n  // event: 'click'、'dblclick'、'mousedown'、'mousemove'、'mouseup'、'mouseover'、'mouseout'\n\n  constructor(private elementRef: ElementRef) {\n  }\n\n  ngAfterViewInit(): void {\n    this.chart = echarts.init(this.elementRef.nativeElement);\n    this.updateChartData(this.options);\n    this.chartCreated.emit(this);\n  }\n\n  ngOnChanges(changes: SimpleChanges) {\n    if (this.chart && changes['options']) {\n      const currentValue = changes['options'].currentValue;\n      this.updateChartData(currentValue);\n    }\n  }\n\n  ngOnDestroy(): void {\n    if (this.chart) {\n      this.chart.destroy();\n    }\n  }\n\n  updateChartData(options: echarts.Option) {\n    if (options) {\n      this.chart.setOption(options);\n    }\n  }\n}\n\n        \n    \n\n\n\n\n\n\n\n\n\n                   \n    \n         results matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+      "body": "\n                   \n\n\n\n  Components\n  EChartsComponent\n\n\n\n    \n        \n            Infos\n        \n        \n            README\n        \n        \n            Source\n        \n    \n\n    \n        \n    File\n\n\n    src/app/exports/echarts/echarts.component.ts\n\n\n\n\n    Metadata\n    \n        \n\n            \n                changeDetection\n                ChangeDetectionStrategy.OnPush\n            \n\n\n\n            \n                exportAs\n                chart\n            \n\n            \n                host\n                {    \"[style.display]\":\"\\\"block\\\"\",    \"[style.width]\":\"width\",\"[style.height]\":\"height\"}\n            \n\n\n\n\n\n\n\n            \n                selector\n                re-echarts\n            \n\n\n\n\n\n\n        \n    \n\n\n    \n        Inputs\n            \n                \n                    \n                        \n                            height\n                        \n                        \n                            \n                              Default value: 400px\n                            \n                        \n                    \n                \n            \n            \n                \n                    \n                        \n                            options\n                        \n                        \n                              \n                                Type:    any\n\n                              \n                        \n                    \n                \n            \n            \n                \n                    \n                        \n                            width\n                        \n                        \n                            \n                              Default value: 100%\n                            \n                        \n                    \n                \n            \n    \n\n    \n        Outputs\n            \n                \n                    \n                        \n                            chartCreated\n                        \n                        \n                            $event type:    EventEmitter\n\n                        \n                    \n                \n            \n    \n\n    \n        Constructor\n            \n                \n                    \n                        \n                            constructor(elementRef: ElementRef)\n                        \n                    \n    \n                \n            \n    \n\n    \n        Methods\n            \n                \n                    \n                        \n                             updateChartData\n                        \n                    \n    \n                    \n                        \n    updateChartData(options: any)\n                        \n                    \n    \n                    \n                        \n                                \n                                    Returns:     void\n    \n                                \n                        \n                    \n                \n            \n    \n\n    \n        Properties\n            \n                \n                    \n                        \n                             chart\n                        \n                    \n                    \n                        \n                            chart:     any\n    \n                        \n                    \n                \n            \n    \n\n        \n            EChart\n\nEChart.js document: http://echarts.baidu.com/index.html;\n\nYou can style re-echarts element to set chart width & height;\n\nYou can set global configuration on EChart object, then reuse in re-echarts component.\n\n\n\n        \n        \n            import {\n  Component,\n  ChangeDetectionStrategy,\n  OnDestroy,\n  ElementRef,\n  Input,\n  AfterViewInit,\n  OnChanges,\n  SimpleChanges,\n  Output,\n  EventEmitter\n} from '@angular/core';\n\nimport * as echarts from 'echarts';\n\n@Component({\n  selector: 're-echarts',\n  template: '',\n  host: {\n    '[style.display]': '\"block\"',\n    '[style.width]': 'width',\n    '[style.height]': 'height'\n  },\n  changeDetection: ChangeDetectionStrategy.OnPush,\n  exportAs: 'chart'\n})\nexport class EChartsComponent implements AfterViewInit, OnChanges, OnDestroy {\n\n  @Input() options: any;\n  @Input() width = '100%';\n  @Input() height = '400px';\n  @Output() chartCreated = new EventEmitter();\n  chart: any;\n  // event: 'click'、'dblclick'、'mousedown'、'mousemove'、'mouseup'、'mouseover'、'mouseout'\n\n  constructor(private elementRef: ElementRef) {\n  }\n\n  ngAfterViewInit(): void {\n    this.chart = (echarts).init(this.elementRef.nativeElement);\n    this.updateChartData(this.options);\n    this.chartCreated.emit(this);\n  }\n\n  ngOnChanges(changes: SimpleChanges) {\n    if (this.chart && changes['options']) {\n      const currentValue = changes['options'].currentValue;\n      this.updateChartData(currentValue);\n    }\n  }\n\n  ngOnDestroy(): void {\n    if (this.chart) {\n      this.chart.destroy();\n    }\n  }\n\n  updateChartData(options: any) {\n    if (options) {\n      this.chart.setOption(options);\n    }\n  }\n}\n\n        \n    \n\n\n\n\n\n\n\n\n\n                   \n    \n         results matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
     },
     "coverage.html": {
       "url": "coverage.html",
