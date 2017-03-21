@@ -1,7 +1,5 @@
 import { Component, OnInit, ViewContainerRef, Renderer, ElementRef } from '@angular/core';
 import { DemoConfigService } from './shared/demo/demo-config.service';
-import { RebirthChartConfig } from './exports/rebirth-chart.config';
-import { REBIRTH_CHART_I18N_ZHCN } from './exports/rebirth-chart.i18n.zh-cn';
 import { ActivatedRoute } from '@angular/router';
 import { ThemeService } from './shared';
 import { MenuBar } from 'ng2-rebirth-ui';
@@ -17,8 +15,7 @@ export class AppComponent implements OnInit {
   gettingStarted: any;
   menus: MenuBar;
 
-  constructor(private rebirthChartConfig: RebirthChartConfig,
-              private viewContainerRef: ViewContainerRef,
+  constructor(private viewContainerRef: ViewContainerRef,
               private demoConfigService: DemoConfigService,
               private  router: ActivatedRoute,
               private  themeService: ThemeService,
