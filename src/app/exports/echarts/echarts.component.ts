@@ -37,7 +37,7 @@ export class EChartsComponent implements AfterViewInit, OnChanges, OnDestroy {
   }
 
   ngAfterViewInit(): void {
-    this.chart = echarts.init(this.elementRef.nativeElement);
+    this.chart = (<any>echarts).init(this.elementRef.nativeElement);
     this.updateChartData(this.options);
     this.chartCreated.emit(this);
   }

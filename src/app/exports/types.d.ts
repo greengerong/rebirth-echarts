@@ -1,1 +1,1 @@
-declare var Chart: any;
+declare const echarts: any;

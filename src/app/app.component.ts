@@ -49,7 +49,7 @@ export class AppComponent implements OnInit {
       home: './',
       menus: [
         {
-          text: '@Rebirth/Chart',
+          text: '@Rebirth/ECharts',
           router: ['./'],
           icon: 'glyphicon glyphicon-home'
         },
