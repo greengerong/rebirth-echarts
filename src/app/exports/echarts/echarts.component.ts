@@ -26,7 +26,7 @@ import * as echarts from 'echarts';
 })
 export class EChartsComponent implements AfterViewInit, OnChanges, OnDestroy {
 
-  @Input() options: echarts.Option;
+  @Input() options: any;
   @Input() width = '100%';
   @Input() height = '400px';
   @Output() chartCreated = new EventEmitter<EChartsComponent>();
@@ -55,7 +55,7 @@ export class EChartsComponent implements AfterViewInit, OnChanges, OnDestroy {
     }
   }
 
-  updateChartData(options: echarts.Option) {
+  updateChartData(options: any) {
     if (options) {
       this.chart.setOption(options);
     }
