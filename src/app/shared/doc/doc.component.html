@@ -1,0 +1,31 @@
+<section id="{{component.name}}">
+  <h2><a href="#{{component.name}}">{{component.name}}</a>
+    <small class="meta-data">
+      (<a class="" target="_blank"
+          [href]="'/rebirth-chart/compodocs/modules/' + component.name +'Module.html'">API Docs
+    </a>, <a class="" target="_blank"
+             [href]="'https://github.com/greengerong/rebirth-chart/tree/master/src/app/exports/' + component.directory">
+      Github Source</a>)
+    </small>
+  </h2>
+  <re-doc-content [component]="component.cmp"></re-doc-content>
+  <hr/>
+  <re-tabs class="code-tabs" (activeTabChange)="activeTabChange($event)">
+    <re-tab id="html" title="HTML">
+      <template reTabContent>
+        <div class="html" #html>
+          <pre>{{component.html}}</pre>
+        </div>
+      </template>
+    </re-tab>
+    <re-tab id="ts" title="TypeScript">
+      <template reTabContent>
+        <div class="typescript" #typescript>
+          <pre>{{component.ts}}</pre>
+        </div>
+      </template>
+    </re-tab>
+  </re-tabs>
+
+  <div class="markdown" [innerHTML]="component.readMe"></div>
+</section>

@@ -1,0 +1,39 @@
+<div class="echarts-demo">
+
+  <section>
+    <h4><a name="line">Line Chart</a></h4>
+    <re-echarts [options]="lineData"></re-echarts>
+  </section>
+
+  <section>
+    <h4><a name="bar">Bar Chart</a></h4>
+    <re-echarts [options]="barData" (chartCreated)="onChartCreated($event)"></re-echarts>
+  </section>
+
+
+  <section>
+    <h4><a name="radar">Radar Chart</a></h4>
+    <re-echarts [options]="radarData"></re-echarts>
+  </section>
+
+  <section>
+    <h4><a name="instrument">Instrument Chart</a></h4>
+    <re-echarts #instrument type="instrument" [options]="instrumentData"></re-echarts>
+  </section>
+
+  <section>
+    <h4><a name="pie">Pie Chart</a></h4>
+    <re-echarts [options]="pieAreaData"></re-echarts>
+  </section>
+
+  <section>
+    <h4><a name="doughnut">Doughnut Chart</a></h4>
+    <re-echarts [options]="doughnutData"></re-echarts>
+  </section>
+
+  <section>
+    <h4><a name="bubble">Bubble Chart</a></h4>
+    <re-echarts [options]="bubbleData"></re-echarts>
+  </section>
+
+</div>
