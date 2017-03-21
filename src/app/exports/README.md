@@ -6,7 +6,7 @@
 
 Welcome to `@Rebirth/ECharts`. This repo is Angular2 ui library for ECharts. And it is being built from scratch in Typescript.
 
-You can check [Demo Showcase](/rebirth-chart) & [API document](/rebirth-chart/compodocs/overview.html).
+You can check [Demo Showcase](/rebirth-echarts) & [API document](/rebirth-echarts/compodocs/overview.html).
 
 
 ## Dependencies

@@ -4,5 +4,5 @@
 
 *  You can style `re-echart` element to set chart width & height;
 
-*  You can set global configuration on EChart object, then reuse in `re-echart` component.
+*  You can set global configuration on EChart object, then reuse in `re-echarts` component.
 
