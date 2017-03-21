@@ -6,7 +6,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import {
   EChartsDemoModule
 } from './demo';
-import { RebirthEChartsModule } from './exports';
 import { RouterModule } from '@angular/router';
 import { RebirthUIModule } from 'ng2-rebirth-ui';
 
@@ -18,7 +17,6 @@ import { RebirthUIModule } from 'ng2-rebirth-ui';
     BrowserModule,
     RouterModule.forRoot([]),
     SharedModule.forRoot(),
-    RebirthEChartsModule.forRoot(),
     RebirthUIModule.forRoot(),
     EChartsDemoModule,
   ],
