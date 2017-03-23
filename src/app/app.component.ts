@@ -95,7 +95,7 @@ export class AppComponent implements OnInit {
         },
         {
           text: '@Github',
-          url: 'http://greengerong.com/rebirth-echarts/',
+          url: 'https://github.com/greengerong/rebirth-echarts',
           target: '_blank',
           icon: 'glyphicon glyphicon-user'
         },
