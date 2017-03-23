@@ -7,7 +7,7 @@
 /tmp
 /lib
 /aot
-ng2-rebirth-chart-**.tgz
+rebirth-**.tgz
 # dependencies
 /node_modules
 

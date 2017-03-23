@@ -89,13 +89,13 @@ export class AppComponent implements OnInit {
         },
         {
           text: 'API Docs',
-          url: '/rebirth-chart/compodocs/overview.html',
+          url: '/rebirth-echarts//compodocs/overview.html',
           target: '_blank',
           icon: 'glyphicon glyphicon-heart'
         },
         {
           text: '@Github',
-          url: 'https://github.com/greengerong/rebirth-chart',
+          url: 'http://greengerong.com/rebirth-echarts/',
           target: '_blank',
           icon: 'glyphicon glyphicon-user'
         },
