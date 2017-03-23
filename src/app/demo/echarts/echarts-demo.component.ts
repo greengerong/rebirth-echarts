@@ -1,6 +1,5 @@
 import { Component, ChangeDetectionStrategy, OnInit, ViewChild } from '@angular/core';
 
-import 'chartjs-plugin-zoom'
 import { EChartsComponent } from '../../exports/echarts/echarts.component';
 
 import * as echarts from 'echarts';
