@@ -51,7 +51,7 @@ export class EChartsComponent implements AfterViewInit, OnChanges, OnDestroy {
 
   ngOnDestroy(): void {
     if (this.chart) {
-      this.chart.destroy();
+      this.chart.dispose();
     }
   }
 
