@@ -299,6 +299,21 @@
                 <tbody>
                     <tr>
                         <td class="col-md-2">
+                            <code>theme</code>
+                        </td>
+                        <td class="col-md-10">
+                              <p>
+                                <em>Type:</em>    <code>string | Object</code>
+
+                              </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
                             <code>width</code>
                         </td>
                         <td class="col-md-10">
@@ -354,7 +369,103 @@
     
                     <tr>
                         <td class="col-md-4">
-    <code>updateChartData(options: any)</code>
+    <code>updateChartData(options: any, notMerge: boolean, lazyUpdate: boolean)</code>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> resize</b>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    <code>resize()</code>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> showLoading</b>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    <code>showLoading(type: string, opts: Object)</code>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> hideLoading</b>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    <code>hideLoading()</code>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> getDataURL</b>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    <code>getDataURL(opts: any)</code>
                         </td>
                     </tr>
     
@@ -433,6 +544,7 @@ export class EChartsComponent implements AfterViewInit, OnChanges, OnDestroy {
   @Input() options: any;
   @Input() width &#x3D; &#x27;100%&#x27;;
   @Input() height &#x3D; &#x27;400px&#x27;;
+  @Input() theme: Object|string;
   @Output() chartCreated &#x3D; new EventEmitter&lt;EChartsComponent&gt;();
   chart: any;
   // event: &#x27;click&#x27;、&#x27;dblclick&#x27;、&#x27;mousedown&#x27;、&#x27;mousemove&#x27;、&#x27;mouseup&#x27;、&#x27;mouseover&#x27;、&#x27;mouseout&#x27;
@@ -441,7 +553,7 @@ export class EChartsComponent implements AfterViewInit, OnChanges, OnDestroy {
   }
 
   ngAfterViewInit(): void {
-    this.chart &#x3D; (&lt;any&gt;echarts).init(this.elementRef.nativeElement);
+    this.chart &#x3D; (&lt;any&gt;echarts).init(this.elementRef.nativeElement, this.theme);
     this.updateChartData(this.options);
     this.chartCreated.emit(this);
   }
@@ -455,14 +567,30 @@ export class EChartsComponent implements AfterViewInit, OnChanges, OnDestroy {
 
   ngOnDestroy(): void {
     if (this.chart) {
-      this.chart.destroy();
+      this.chart.dispose();
     }
   }
 
-  updateChartData(options: any) {
+  updateChartData(options: any, notMerge?: boolean, lazyUpdate?: boolean) {
     if (options) {
-      this.chart.setOption(options);
+      this.chart.setOption(options, notMerge, lazyUpdate);
     }
+  }
+
+  resize() {
+    this.chart.resize();
+  }
+
+  showLoading(type?: string, opts?: Object) {
+    this.chart.showLoading(type, opts);
+  }
+
+  hideLoading() {
+    this.chart.hideLoading();
+  }
+
+  getDataURL(opts) {
+    return this.chart.getDataURL(opts);
   }
 }
 </code></pre>
