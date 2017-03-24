@@ -3,19 +3,24 @@ import {
   EChartsDemoComponent
   // component import
 } from '../../demo';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Injectable()
 export class DemoConfigService {
+  constructor(private domSanitizer: DomSanitizer) {
+
+  }
+
   gettingStarted = {
-    readMe: require('!html-loader!markdown-loader!../../exports/README.md')
+    readMe: this.domSanitizer.bypassSecurityTrustHtml(require('!html-loader!markdown-loader!../../exports/README.md'))
   };
 
-  components: { name: string, cmp: Type<any>, directory?: string, readMe?: string, html?: string, ts?: string }[] = [
+  components: { name: string, cmp: Type<any>, directory?: string, readMe?: any, html?: string, ts?: string }[] = [
     {
       name: 'ECharts',
       directory: 'echarts',
       cmp: EChartsDemoComponent,
-      readMe: require('!html-loader!markdown-loader!../../exports/echarts/README.md'),
+      readMe: this.domSanitizer.bypassSecurityTrustHtml(require('!html-loader!markdown-loader!../../exports/echarts/README.md')),
       html: require('!raw-loader!../../demo/echarts/echarts-demo.component.html'),
       ts: require('!raw-loader!../../demo/echarts/echarts-demo.component.ts'),
     },
