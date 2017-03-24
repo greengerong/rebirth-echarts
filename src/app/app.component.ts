@@ -2,7 +2,7 @@ import { Component, OnInit, ViewContainerRef, Renderer, ElementRef } from '@angu
 import { DemoConfigService } from './shared/demo/demo-config.service';
 import { ActivatedRoute } from '@angular/router';
 import { ThemeService } from './shared';
-import { MenuBar } from 'ng2-rebirth-ui';
+import { MenuBar } from 'rebirth-ng';
 
 @Component({
   selector: 're-app',

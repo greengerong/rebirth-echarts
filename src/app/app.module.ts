@@ -7,7 +7,7 @@ import {
   EChartsDemoModule
 } from './demo';
 import { RouterModule } from '@angular/router';
-import { RebirthUIModule } from 'ng2-rebirth-ui';
+import { RebirthNGModule } from 'rebirth-ng';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import { RebirthUIModule } from 'ng2-rebirth-ui';
     BrowserModule,
     RouterModule.forRoot([]),
     SharedModule.forRoot(),
-    RebirthUIModule.forRoot(),
+    RebirthNGModule.forRoot(),
     EChartsDemoModule,
   ],
   providers: [],

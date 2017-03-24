@@ -14,7 +14,7 @@ You can check [Demo Showcase](/rebirth-echarts) & [API document](/rebirth-echart
 `@Rebirth/ECharts` is all base on Angular2 and Chart.js.
 The only required dependencies are:
 
-* [Angular](https://angular.io/) (requires `Angular` version 2.3.1 or higher)
+* [Angular](https://angular.io/) (requires `Angular` version 4.0.0 or higher)
 * [ECharts](http://echarts.baidu.com/index.html) (`ECharts` 3.4.0)
 
 
