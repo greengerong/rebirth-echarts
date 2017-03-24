@@ -4,7 +4,7 @@
 
 * @Rebirth/ECharts link: [https://greengerong.github.io/rebirth-echarts/](http://greengerong.github.io/rebirth-echarts/)
 
-* @Rebirth/UI link: [https://greengerong.github.io/ng2-rebirth-ui/](http://greengerong.github.io/ng2-rebirth-ui/)
+* @Rebirth/UI link: [https://greengerong.github.io/rebirth-ng/](http://greengerong.github.io/rebirth-ng/)
 
 
 ## Build
