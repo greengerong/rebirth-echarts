@@ -3,6 +3,7 @@ import { Component, ChangeDetectionStrategy, OnInit, ViewChild } from '@angular/
 import { EChartsComponent } from '../../exports/echarts/echarts.component';
 
 import * as echarts from 'echarts';
+import 'echarts/theme/vintage.js';
 
 @Component({
   selector: 're-chart-demo',

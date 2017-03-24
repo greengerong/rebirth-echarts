@@ -29,6 +29,7 @@ export class EChartsComponent implements AfterViewInit, OnChanges, OnDestroy {
   @Input() options: any;
   @Input() width = '100%';
   @Input() height = '400px';
+  @Input() theme: Object|string;
   @Output() chartCreated = new EventEmitter<EChartsComponent>();
   chart: any;
   // event: 'click'、'dblclick'、'mousedown'、'mousemove'、'mouseup'、'mouseover'、'mouseout'
@@ -37,7 +38,7 @@ export class EChartsComponent implements AfterViewInit, OnChanges, OnDestroy {
   }
 
   ngAfterViewInit(): void {
-    this.chart = (<any>echarts).init(this.elementRef.nativeElement);
+    this.chart = (<any>echarts).init(this.elementRef.nativeElement, this.theme);
     this.updateChartData(this.options);
     this.chartCreated.emit(this);
   }
@@ -59,5 +60,21 @@ export class EChartsComponent implements AfterViewInit, OnChanges, OnDestroy {
     if (options) {
       this.chart.setOption(options);
     }
+  }
+
+  resize() {
+    this.chart.resize();
+  }
+
+  showLoading(type?: string, opts?: Object) {
+    this.chart.showLoading(type, opts);
+  }
+
+  hideLoading() {
+    this.chart.hideLoading();
+  }
+
+  getDataURL(opts) {
+    return this.chart.getDataURL(opts);
   }
 }
