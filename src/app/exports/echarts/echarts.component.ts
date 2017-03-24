@@ -56,9 +56,9 @@ export class EChartsComponent implements AfterViewInit, OnChanges, OnDestroy {
     }
   }
 
-  updateChartData(options: any) {
+  updateChartData(options: any, notMerge?: boolean, lazyUpdate?: boolean) {
     if (options) {
-      this.chart.setOption(options);
+      this.chart.setOption(options, notMerge, lazyUpdate);
     }
   }
 
