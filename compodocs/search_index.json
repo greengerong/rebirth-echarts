@@ -16,7 +16,7 @@
     "documentStore": {
       "store": {
         "index.html": [
-          "angular2",
+          "angular4",
           "build",
           "deploy",
           "doc",
@@ -325,7 +325,7 @@
                   "a": {
                     "docs": {},
                     "r": {
-                      "2": {
+                      "4": {
                         "docs": {
                           "index.html": {
                             "ref": "index.html",
@@ -4403,7 +4403,7 @@
       "afterviewinit",
       "angular/common",
       "angular/cor",
-      "angular2",
+      "angular4",
       "block",
       "boolean",
       "brows",
@@ -4552,7 +4552,7 @@
     "index.html": {
       "url": "index.html",
       "title": "readme - index",
-      "body": "\n                   \n@Rebirth/echarts\n##########################\n\nAngular2 UI plugin with echarts;\n\n\n@Rebirth/ECharts link: https://greengerong.github.io/rebirth-echarts/\n\n@Rebirth/UI link: https://greengerong.github.io/rebirth-ng/\n\n\nBuild\n\nRun serve: npm start\n\nDocs deploy: npm run docs:deploy\n\n\nGet start\n Get start\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         results matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+      "body": "\n                   \n@Rebirth/echarts\n##########################\n\nAngular4 UI plugin with echarts;\n\n\n@Rebirth/ECharts link: https://greengerong.github.io/rebirth-echarts/\n\n@Rebirth/UI link: https://greengerong.github.io/rebirth-ng/\n\n\nBuild\n\nRun serve: npm start\n\nDocs deploy: npm run docs:deploy\n\n\nGet start\n Get start\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         results matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
     },
     "overview.html": {
       "url": "overview.html",
