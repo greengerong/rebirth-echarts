@@ -1,6 +1,6 @@
 # @Rebirth/echarts
 ##########################
-> Angular2 UI plugin with echarts;
+> Angular4 UI plugin with echarts;
 
 * @Rebirth/ECharts link: [https://greengerong.github.io/rebirth-echarts/](http://greengerong.github.io/rebirth-echarts/)
 

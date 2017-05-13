@@ -1,17 +1,17 @@
 # Getting started 
 
-> Angular2 UI plugin with ECharts
+> Angular4 UI plugin with ECharts
 
 ## Welcome
 
-Welcome to `@Rebirth/ECharts`. This repo is Angular2 ui library for ECharts. And it is being built from scratch in Typescript.
+Welcome to `@Rebirth/ECharts`. This repo is Angular4 ui library for ECharts. And it is being built from scratch in Typescript.
 
 You can check [Demo Showcase](/rebirth-echarts) & [API document](/rebirth-echarts/compodocs/overview.html).
 
 
 ## Dependencies
 
-`@Rebirth/ECharts` is all base on Angular2 and Chart.js.
+`@Rebirth/ECharts` is all base on Angular4 and Chart.js.
 The only required dependencies are:
 
 * [Angular](https://angular.io/) (requires `Angular` version 4.0.0 or higher)

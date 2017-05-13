@@ -44,7 +44,7 @@ export class AppComponent implements OnInit {
     });
 
     this.menus = {
-      logo: 'http://greengerong.com/rebirth/assets/img/wolf2.png',
+      logo: 'http://greengerong.github.io/rebirth/assets/img/wolf2.png',
       title: '破狼博客',
       home: './',
       menus: [
