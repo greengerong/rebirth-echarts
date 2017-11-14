@@ -1,7 +1,6 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { HttpModule, JsonpModule } from '@angular/http';
 import { DocComponent } from './doc';
 import { DocContentComponent } from './doc/doc-content.component';
 import { DemoConfigService } from './demo/demo-config.service';
@@ -15,8 +14,6 @@ import { RebirthNGModule } from 'rebirth-ng';
     CommonModule,
     FormsModule,
     RouterModule,
-    HttpModule,
-    JsonpModule,
     RebirthNGModule,
     RebirthEChartsModule
   ],
@@ -29,8 +26,6 @@ import { RebirthNGModule } from 'rebirth-ng';
     CommonModule,
     FormsModule,
     RouterModule,
-    HttpModule,
-    JsonpModule,
     DocComponent
   ]
 })
