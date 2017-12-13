@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewContainerRef, Renderer, ElementRef } from '@angular/core';
+import { Component, OnInit, ViewContainerRef, ElementRef, Renderer2 } from '@angular/core';
 import { DemoConfigService } from './shared/demo/demo-config.service';
 import { ActivatedRoute } from '@angular/router';
 import { ThemeService } from './shared';
@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
               private demoConfigService: DemoConfigService,
               private  router: ActivatedRoute,
               private  themeService: ThemeService,
-              private  renderer: Renderer,
+              private  renderer: Renderer2,
               private elementRef: ElementRef) {
 
     this.router.queryParams.subscribe((params: any) => {
@@ -86,6 +86,44 @@ export class AppComponent implements OnInit {
             }
           ],
           icon: 'glyphicon glyphicon-fire'
+        },
+        {
+          text: 'Advance Components',
+          icon: 'glyphicon glyphicon-fire',
+          children: [
+            {
+              text: 'Rebirth-ng',
+              url: 'https://greengerong.github.io/rebirth-ng/'
+            },
+            {
+              text: 'Rebirth-http',
+              url: 'https://github.com/greengerong/rebirth-http'
+            },
+            {
+              text: 'Rebirth-permission',
+              url: 'https://github.com/greengerong/rebirth-permission'
+            },
+            {
+              text: 'Rebirth-storage',
+              url: 'https://github.com/greengerong/rebirth-storage'
+            },
+            {
+              text: 'Rebirth-event-source',
+              url: 'https://github.com/greengerong/rebirth-event-source'
+            },
+            {
+              text: 'Rebirth-chart(Chartjs)',
+              url: 'https://greengerong.github.io/rebirth-chart/'
+            },
+            {
+              text: 'Rebirth-echarts(ECharts)',
+              url: 'https://greengerong.github.io/rebirth-echarts/'
+            },
+            {
+              text: 'Rebirth seed(rebirth-admin)',
+              url: 'https://github.com/greengerong/rebirth-admin'
+            },
+          ]
         },
         {
           text: 'API Docs',
